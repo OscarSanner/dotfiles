@@ -21,14 +21,14 @@ copy_if_different() {
             echo "File $dest differs from source $src."
             read -p "Do you want to overwrite it? (y/n) " answer
             if [ "$answer" == "y" ]; then
-                cp "$src" "$dest"
+                cp -r "$src" "$dest"
                 echo "Overwritten $dest."
             else
                 echo "Skipped $dest."
             fi
         fi
     else
-        cp "$src" "$dest"
+        cp -r "$src" "$dest"
         echo "Copied $src to $dest."
     fi
 }
