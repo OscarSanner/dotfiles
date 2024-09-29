@@ -1,0 +1,12 @@
+set $mod Mod4
+
+font pafont pango:Source Code Pro 10
+set $refresh_i3status killall -SIGUSR1 i3status
+
+include ~/.config/i3/workspaces.conf
+include ~/.config/i3/colors.conf
+include ~/.config/i3/applications.conf
+include ~/.config/i3/style.conf
+include ~/.config/i3/bindsym.conf
+include ~/.config/i3/resize.conf
+include ~/.config/i3/startup.conf
