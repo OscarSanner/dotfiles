@@ -2,7 +2,7 @@
 
 # Define source directories
 FONT_DIRS=("fonts/IBMPlexMono" "fonts/JetbrainsNerd" "fonts/SourceCodeProNerd")
-CONFIG_DIRS=("kitty" "i3" "nvim" "scripts")
+CONFIG_DIRS=("kitty" "i3" "nvim" "scripts" "polybar")
 XRESOURCES_FILE=".Xresources"
 
 # Define target directories
